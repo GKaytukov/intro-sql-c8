@@ -20,6 +20,6 @@ ORDER BY customerid.customerid
 
 insert into orders (create_time, productionname, customerid) values ('2022-10-22', 'iphone', 5)
 
-update customers set name='Damian' where customerid=3
+update customers set name='Damian' where customerid = 3
 
 SELECT * FROM customers order by customers.customerid

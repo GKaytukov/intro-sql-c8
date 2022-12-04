@@ -35,8 +35,9 @@ while (true) {
         query = `UPDATE customers
         SET first_name='super', 
         last_name='fantastic',
-    --	email=?, phone=?, 
-    -- 	created_at=?, 
+    --	email=?,
+    --  phone=?, 
+    -- 	created_date=?, 
         updated_at=NOW()
         WHERE customer_id=1;`
         results = await runQuery(query) 
